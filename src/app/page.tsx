@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Todos from "./todos";
 
 export default function Home() {
