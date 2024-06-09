@@ -4,8 +4,8 @@ import createIntlMiddleware from "next-intl/middleware";
 import { locales } from "@/navigation";
 
 const publicPages = [
-  "/",
-  "/login",
+  "/sign-in",
+  "/sign-up",
   // (/secret requires auth)
 ];
 
@@ -25,7 +25,7 @@ const authMiddleware = withAuth(
       authorized: ({ token }) => token != null,
     },
     pages: {
-      signIn: "/login",
+      signIn: "/sign-in",
     },
   }
 );
