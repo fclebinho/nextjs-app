@@ -4,8 +4,13 @@ import createIntlMiddleware from "next-intl/middleware";
 import { locales } from "@/navigation";
 
 const publicPages = [
+  "/",
   "/sign-in",
   "/sign-up",
+  "/settings",
+  "/products",
+  "/products/create",
+  "/products/1/edit",
   // (/secret requires auth)
 ];
 

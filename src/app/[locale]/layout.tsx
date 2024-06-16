@@ -22,7 +22,7 @@ export default async function RootLayout({
   params: { locale },
 }: Readonly<RootLayoutProps>) {
   // Providing all messages to the client
-  // side is the easiest way to get started
+  // side is the easiest way to get startedxw
   const messages = await getMessages();
 
   return (

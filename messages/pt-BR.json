@@ -1,5 +1,67 @@
 {
   "Todo": {
     "title": "A Fazeres"
+  },
+  "product": {
+    "title": "Produtos",
+    "subtitle": "Gerencie seus produtos e veja o desempenho de vendas.",
+    "createdAt": "Data de criação",
+    "name": "Nome do produto",
+    "quantity": "Quantidade por embalagem",
+    "price": "Preço",
+    "measurement": "Unidade de medida",
+    "status": "Status",
+    "description": "Descrição",
+    "id": "ID",
+    "actions": "Ações",
+    "edit": "Editar",
+    "delete": "Deletar",
+    "add": "Adicionar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "discard": "Descartar",
+    "editProduct": "Editar Produto",
+    "addProduct": "Adicionar Produto",
+    "deleteProduct": "Deletar Produto",
+    "productDetails": "Detalhes do Produto",
+    "productDescription": "Descrição do Produto",
+    "yes": "Sim",
+    "no": "Não",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "messages": {
+      "confirmDelete": "Tem certeza que deseja deletar este produto?",
+      "productDeleted": "Produto deletado com sucesso!",
+      "productAdded": "Produto adicionado com sucesso!",
+      "productUpdated": "Produto atualizado com sucesso!",
+      "productNotDeleted": "Produto não foi deletado!",
+      "productNotAdded": "Produto não foi adicionado!",
+      "productNotUpdated": "Produto não foi atualizado!",
+      "productNotFound": "Produto não encontrado!",
+      "productNotSelected": "Produto não selecionado!",
+      "productNotValid": "Produto não é válido!",
+      "productNotSaved": "Produto não foi salvo!",
+      "productNotEdited": "Produto não foi editado!"
+    },
+    "select": "Selecionar",
+    "productStatus": {
+      "title": "Status do Produto",
+      "draft": "Rascunho",
+      "internal": "Uso interno",
+      "published": "Publicado",
+      "archived": "Arquivado"
+    },
+    "measurementOfUnit": {
+      "kg": "Kilograma (kg)",
+      "g": "Grama (g)",
+      "l": "Litro (l)",
+      "ml": "Mililitro (ml)",
+      "un": "Unidade (un)"
+    },
+    "stock": {
+      "title": "Quantidade e valores",
+      "subtitle": "Texto aqui..."
+    }
   }
 }
